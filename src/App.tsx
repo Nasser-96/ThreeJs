@@ -1,11 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import { BrowserRouter } from 'react-router-dom';
+import './App.css';
+import { Navbar, Hero, About, Tech, Experience, Works, Feedbacks, Contact,StarsCanvas } from './sections';
+
+const App = ()=> {
   return (
-    <div className="App">
-    </div>
+    <BrowserRouter>
+      <div className='relative z-0 bg-primary'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+          <Navbar/>
+          <Hero/>
+        </div>
+        <About/>
+        <Experience/>
+        <Tech/>
+        <Works/>
+        <Feedbacks/>
+        <div className='relative z-0'>
+          <Contact/>
+          <StarsCanvas/>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
