@@ -1,8 +1,9 @@
-const About = ()=>{
+import AboutComponent from "../components/About/AboutComponent"
+
+const About = ()=>
+{
     return(
-        <div>
-            About
-        </div>
+        <AboutComponent/>
     )
 }
 
