@@ -24,6 +24,22 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  export type ExperienceType =
+  {
+    title: string,
+      company_name: string,
+      icon: string,
+      iconBg: string,
+      date: string,
+      points: string[],
+  }
+
+  export type TechnologyType = 
+  {
+    name: string,
+    icon: string,
+  }
   
   export const navLinks = [
     {
@@ -114,7 +130,7 @@ import {
     },
   ];
   
-  const experiences = [
+  const experiences:ExperienceType[] = [
     {
       title: "React.js Developer",
       company_name: "Starbucks",

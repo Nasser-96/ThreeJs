@@ -1,5 +1,5 @@
 import { menu,close } from '../../assets'
-import { navLinks } from '../../constans'
+import { navLinks } from '../../constants'
 
 interface MobileNavbarProps {
     toggle:boolean

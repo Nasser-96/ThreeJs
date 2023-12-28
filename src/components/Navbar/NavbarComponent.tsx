@@ -1,5 +1,5 @@
 import { styles } from '../../styles'
-import { navLinks } from '../../constans'
+import { navLinks } from '../../constants'
 import { logo, close } from '../../assets'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'

@@ -1,8 +1,8 @@
+import WorksComponent from "../components/Work/Work"
+
 const Works = ()=>{
     return(
-        <div>
-            Works
-        </div>
+       <WorksComponent/>
     )
 }
 

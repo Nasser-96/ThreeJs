@@ -1,8 +1,8 @@
+import TechComponent from "../components/Tech/Tech"
+
 const Tech = ()=>{
     return(
-        <div>
-            Tech
-        </div>
+        <TechComponent />
     )
 }
 

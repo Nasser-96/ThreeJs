@@ -42,7 +42,6 @@ const ComputerCanvas = ()=>
         const mediaQuery = window.matchMedia(`
         (max-width:500px)
         `)
-        console.log(mediaQuery);
         
         setIsMobile(mediaQuery.matches)
 
